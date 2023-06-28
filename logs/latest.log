@@ -1,58 +1,77 @@
-[09:55:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:55:19] [ServerMain/INFO]: Loaded 7 recipes
-[09:55:20] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[09:55:20] [Server thread/WARN]: ****************************
-[09:55:20] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[09:55:20] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[09:55:20] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[09:55:20] [Server thread/WARN]: ****************************
-[09:55:20] [Server thread/INFO]: Loading properties
-[09:55:20] [Server thread/INFO]: This server is running Paper version git-Paper-55 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: e4b40dd)
-[09:55:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:55:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:55:20] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[10:25:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:25:21] [ServerMain/INFO]: Loaded 7 recipes
+[10:25:21] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[10:25:21] [Server thread/WARN]: ****************************
+[10:25:21] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[10:25:21] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[10:25:21] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[10:25:21] [Server thread/WARN]: ****************************
+[10:25:21] [Server thread/INFO]: Loading properties
+[10:25:21] [Server thread/INFO]: This server is running Paper version git-Paper-55 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: e4b40dd)
+[10:25:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:25:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:25:21] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[09:55:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[09:55:20] [Server thread/INFO]: Default game type: SURVIVAL
-[09:55:20] [Server thread/INFO]: Generating keypair
-[09:55:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:55:21] [Server thread/INFO]: Using epoll channel type
-[09:55:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:55:21] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[09:55:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:55:21] [Server thread/INFO]: Preparing level "Panelinha World"
-[09:55:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:55:21] [Server thread/INFO]: Time elapsed: 193 ms
-[09:55:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:55:21] [Server thread/INFO]: Time elapsed: 50 ms
-[09:55:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:55:21] [Server thread/INFO]: Time elapsed: 31 ms
-[09:55:21] [Server thread/INFO]: Running delayed init tasks
-[09:55:21] [Server thread/INFO]: Done (1.360s)! For help, type "help"
-[09:55:21] [Server thread/INFO]: Timings Reset
-[09:56:00] [Server thread/INFO]: Stopping server
-[09:56:00] [Server thread/INFO]: Saving players
-[09:56:00] [Server thread/INFO]: Saving worlds
-[09:56:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World]'/minecraft:overworld
-[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World'
-[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World'
-[09:56:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 1989 block chunks, 529 entity chunks, 0 poi chunks in world 'Panelinha World' in 1.14s
-[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (Panelinha World): All chunks are saved
-[09:56:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World_nether]'/minecraft:the_nether
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World_nether'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World_nether'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World_nether'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'Panelinha World_nether' in 0.37s
-[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:56:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World_the_end]'/minecraft:the_end
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World_the_end'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World_the_end'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World_the_end'
-[09:56:01] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'Panelinha World_the_end' in 0.11s
-[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:56:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:56:01] [Server thread/INFO]: Flushing Chunk IO
-[09:56:01] [Server thread/INFO]: Closing Thread Pool
-[09:56:01] [Server thread/INFO]: Closing Server
+[10:25:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[10:25:22] [Server thread/INFO]: Default game type: SURVIVAL
+[10:25:22] [Server thread/INFO]: Generating keypair
+[10:25:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:25:22] [Server thread/INFO]: Using epoll channel type
+[10:25:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:25:22] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[10:25:22] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[10:25:23] [Server thread/INFO]: [floodgate] Took 554ms to boot Floodgate
+[10:25:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.1-SNAPSHOT
+[10:25:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[10:25:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[10:25:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:25:23] [Server thread/INFO]: Preparing level "Panelinha World"
+[10:25:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:25:25] [Server thread/INFO]: Time elapsed: 339 ms
+[10:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:25:25] [Server thread/INFO]: Time elapsed: 96 ms
+[10:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:25:25] [Server thread/INFO]: Time elapsed: 71 ms
+[10:25:25] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.1-SNAPSHOT
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] 
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.1-SNAPSHOT (git-master-4077514)
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] 
+[10:25:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:25:31] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[10:25:31] [Server thread/INFO]: [Geyser-Spigot] Done (5.518s)! Run /geyser help for help!
+[10:25:31] [Server thread/INFO]: Running delayed init tasks
+[10:25:31] [Server thread/INFO]: Done (10.315s)! For help, type "help"
+[10:25:31] [Server thread/INFO]: Timings Reset
+[10:30:39] [Server thread/INFO]: Stopping server
+[10:30:39] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.1-SNAPSHOT
+[10:30:39] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:30:39] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:30:39] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[10:30:39] [Server thread/INFO]: Saving players
+[10:30:39] [Server thread/INFO]: Saving worlds
+[10:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World]'/minecraft:overworld
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 50 entity chunks, 0 poi chunks in world 'Panelinha World' in 0.01s
+[10:30:39] [WebSocketConnectReadThread-57/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:30:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (Panelinha World): All chunks are saved
+[10:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World_nether]'/minecraft:the_nether
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World_nether'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World_nether'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World_nether'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'Panelinha World_nether' in 0.05s
+[10:30:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Panelinha World_the_end]'/minecraft:the_end
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Panelinha World_the_end'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Panelinha World_the_end'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Panelinha World_the_end'
+[10:30:39] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'Panelinha World_the_end' in 0.01s
+[10:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:30:40] [Server thread/INFO]: Flushing Chunk IO
+[10:30:40] [Server thread/INFO]: Closing Thread Pool
+[10:30:40] [Server thread/INFO]: Closing Server
